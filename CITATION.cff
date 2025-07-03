@@ -25,7 +25,7 @@ authors:
 identifiers:
   - type: doi
     value: 10.5281/zenodo.10426257
-repository-code: 'https://github.com/UUDigitalHumanitieslab/lassy-xpath'
+repository-code: 'https://github.com/CentreForDigitalHumanities/lassy-xpath'
 url: 'https://npmjs.com/lassy-xpath'
 abstract: >-
   NPM module for working with XPath queries on LASSY XML
