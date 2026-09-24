@@ -12,7 +12,9 @@ import { ParserService, MacroService } from '../../services/_ng';
             color: #d54a4a;
             display: inline-block;
             min-height: 1.5em;
-        }`]
+        }`
+    ],
+    standalone: false
 })
 export class XPathEditorComponent extends XPathEditor implements OnDestroy, OnInit {
     private subscriptions: Subscription[];
