@@ -10,6 +10,7 @@ It is developed for and used by the [GrETEL search tool](https://gretel.hum.uu.n
 
 ## Compatibility
 
+- v0.22.x is for Angular 22
 - v0.15.x is for Angular 15
 - v0.12.x is for Angular 12
 - v0.4.3 and down should work with Angular 6 and JQuery
