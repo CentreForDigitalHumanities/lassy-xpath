@@ -1,26 +1,24 @@
 {
     "compileOnSave": false,
     "compilerOptions": {
-      "baseUrl": "./",
-      "outDir": "./dist/out-tsc",
-      "forceConsistentCasingInFileNames": true,
-      "strict": false,
-      "noImplicitReturns": true,
-      "noFallthroughCasesInSwitch": true,
-      "paths": {
-        "lassy-xpath": [
-          "dist/lassy-xpath/lassy-xpath",
-          "dist/lassy-xpath"
-        ]
-      },
-      "sourceMap": true,
-      "declaration": false,
-      "downlevelIteration": true,
-      "experimentalDecorators": true,
-      "moduleResolution": "bundler",
-      "importHelpers": true,
-      "target": "es2020",
-      "module": "es2020"
+        "baseUrl": "./",
+        "ignoreDeprecations": "6.0",
+        "outDir": "./dist/out-tsc",
+        "forceConsistentCasingInFileNames": true,
+        "strict": false,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "skipLibCheck": true,
+        "paths": {
+            "lassy-xpath": ["dist/lassy-xpath/lassy-xpath", "dist/lassy-xpath"]
+        },
+        "sourceMap": true,
+        "declaration": false,
+        "experimentalDecorators": true,
+        "moduleResolution": "bundler",
+        "importHelpers": true,
+        "target": "es2020",
+        "module": "es2020"
     },
     "angularCompilerOptions": {
         "enableI18nLegacyMessageIdFormat": false,
