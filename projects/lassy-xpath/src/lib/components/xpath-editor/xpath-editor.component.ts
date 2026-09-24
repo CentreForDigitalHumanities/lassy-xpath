@@ -1,4 +1,4 @@
-import { Component, ElementRef, EventEmitter, Input, OnDestroy, OnInit, Output, ViewChild } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Input, OnDestroy, OnInit, Output, ViewChild, ChangeDetectionStrategy } from '@angular/core';
 import { Subscription } from 'rxjs';
 
 import { XPathEditor } from './xpath-editor';
@@ -12,7 +12,10 @@ import { ParserService, MacroService } from '../../services/_ng';
             color: #d54a4a;
             display: inline-block;
             min-height: 1.5em;
-        }`]
+        }`
+    ],
+    changeDetection: ChangeDetectionStrategy.Eager,
+    standalone: false
 })
 export class XPathEditorComponent extends XPathEditor implements OnDestroy, OnInit {
     private subscriptions: Subscription[];
