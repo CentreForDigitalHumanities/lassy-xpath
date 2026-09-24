@@ -2,8 +2,8 @@
     "name": "lassy-xpath",
     "version": "0.15.1",
     "peerDependencies": {
-        "@angular/common": "^19.2.25",
-        "@angular/core": "^19.2.25"
+        "@angular/common": "^20.3.32",
+        "@angular/core": "^20.3.32"
     },
     "dependencies": {
         "brace": "^0.11.1",
